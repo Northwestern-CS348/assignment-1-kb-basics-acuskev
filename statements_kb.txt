@@ -34,3 +34,10 @@ fact: (inst cube3 cube)
 fact: (inst cube4 cube)
 
 fact: (inst sphere1 sphere)
+
+fact: (color dylan green)
+fact: (color dylan green)
+
+
+
+

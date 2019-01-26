@@ -23,9 +23,10 @@ class KnowledgeBase(object):
         Args:
             fact (Fact or Rule): Fact or Rule we're asserting in the format produced by read.py
         """
-        print("Asserting {!r}".format(fact))
+        
         if type(fact) == Fact:
         	if fact not in self.facts:
+        		print("Asserting {!r}".format(fact))
         		self.facts.append(fact)
         
     def kb_ask(self, fact):
